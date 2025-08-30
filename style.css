@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #1e3a8a;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Skills */
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  background: #2563eb;
+  color: white;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+
+/* Cards */
+.card {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Contact */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form button:hover {
+  background: #2563eb;
+}
+
+#formResponse {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1e3a8a;
+  color: white;
+}
